@@ -91,7 +91,12 @@
               "type": "VirtualMachineScaleSets",
               "mode": "System"
             }
-          ]
+          ],
+          "networkProfile": {
+            "serviceCidr": "10.255.252.0/22",
+            "dnsServiceIP": "10.255.252.10",
+            "dockerBridgeCidr": "172.17.0.1/16"
+          }
         }
       }
     ],
